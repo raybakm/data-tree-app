@@ -1,0 +1,22 @@
+.list {
+  margin-left: 15px !important;
+  padding: 0 !important;
+}
+
+.list-item-button {
+  height: 1.5rem;
+}
+
+.list-item-icon {
+  min-width: 2rem !important;
+}
+
+.list-item-text {
+  flex-grow: 0 !important;
+  cursor: default;
+  padding-right: 0.2rem;
+}
+
+.list-action-icon {
+  padding: 0 0.2rem;
+}

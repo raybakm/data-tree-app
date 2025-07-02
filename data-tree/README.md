@@ -1,3 +1,11 @@
+# Data tree application:
+Use swagger to learn server API.
+https://test.vmarmysh.com/swagger/user.html
+
+Use unique tree name for your own tree, for example, GUID (declared in constants.ts file, for example 'c4b2d4e6-5cfb-45a1-9a72-2faddfca5e19')
+
+Data tree application makes it possible to create/edit/delete items on different levels.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

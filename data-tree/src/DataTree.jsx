@@ -10,8 +10,10 @@ const DataTree = () => {
 
   const fetchData = async () => {
     let response = await dataTreeAPI.getUserTreeData(treeName)
-    let responseJSON = await response.json()
-    setUserTreeData(responseJSON)
+    if (response.ok) {
+      let responseJSON = await response.json()
+      setUserTreeData(responseJSON)
+    }
   }
 
   useEffect(() => {
